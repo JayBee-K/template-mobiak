@@ -1,0 +1,116 @@
+.section-gap {
+	padding: 50px 0;
+}
+
+.section-heading {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.section-heading .heading-information {
+	width: 40%;
+	line-height: 1.5;
+}
+
+.section-heading .heading-information .heading-sub {
+	color: var(--primary-color);
+	font-size: 1.15em;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.section-heading .heading-information .heading-sub:before {
+	content: "";
+	width: 20px;
+	height: 3px;
+	border-radius: 6px;
+	background-color: currentColor;
+	display: inline-block;
+}
+
+.section-heading .heading-information .heading-title {
+	font-size: 2.5em;
+	color: var(--bs-black);
+	font-weight: 700;
+}
+
+.section-heading .heading-content {
+	width: 60%;
+	font-size: 1.075em;
+	line-height: 1.7;
+	color: #6c6c6c;
+}
+
+.section-heading .heading-content > p:last-child {
+	margin-bottom: 0;
+}
+
+.section-heading .heading-content {
+	width: 60%;
+}
+
+.section-why {
+	padding: 70px 0 150px;
+}
+
+.why-heading {
+	margin-bottom: 30px;
+}
+
+.why-heading .heading-title {
+	font-size: 2.5em;
+	color: var(--bs-black);
+	font-weight: 700;
+	text-align: center;
+}
+
+.why-box .why-box_icon {
+	width: 103px;
+	height: 103px;
+	background: radial-gradient(59.22% 59.22% at 50% 50%, rgba(var(--primary-rgb), 0.8) 0%, var(--primary-color) 66.67%, var(--primary-hover) 100%);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.why-box .why-box_title {
+	font-size: 1.3em;
+	color: var(--bs-gray-800);
+}
+
+.why-box .why-box_desc p {
+	font-size: 1.075em;
+	line-height: 1.6;
+}
+
+.why-box .why-box_desc p:last-child {
+	margin-bottom: 0;
+}
+
+.section-counter {
+	transform: translateY(-50%);
+	position: relative;
+	margin-bottom: -85px;
+}
+
+.section-counter .counter-inner {
+	background-color: var(--secondary-color);
+	border-radius: 6px;
+}
+
+.counter-item {
+	padding: 50px 0;
+}
+
+.counter-item .counter-item_number {
+	font-size: 2em;
+}
+
+.counter-item .counter-item_title {
+	font-size: 1.15em;
+}
