@@ -1,61 +1,16 @@
 Note Template Mobiak.vn
 
-đổi font toàn chữ toàn trang
-counter: bổ sung icon
-category: bỏ chữ xem chi tiết, căn chỉnh chiều cao của mũi tên và tiêu đề
+	XONG đổi font toàn chữ toàn trang
 
-<div class="section-introduction position-relative zi-2 section-gap pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="introduction-image">
-                        <img src="./assets/images/introduction/introduction-1.jpg" class="img-fluid w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="background-cover introduction-inner" style="background-image: url('./assets/images/bg-grainy.png')">
-                        <div class="section-heading mb-0 flex-column">
-                            <div class="heading-information w-100">
-                                <div class="heading-sub">
-                                    Công ty cổ phần phòng cháy chữa cháy Trần Gia
-                                </div>
-                                <div class="heading-title">
-                                    Đơn Vị Thi Công PCCC Số 1 Việt Nam
-                                </div>
-                            </div>
-                            <div class="heading-content w-100">
-                                <div class="heading-text">
-                                    <p>
-                                        Trần Gia cung cấp dịch vụ tư vấn, thiết kế hệ thống phòng cháy chữa cháy cho các
-                                        công trình dân dụng và công nghiệp thiết kế hệ thống phòng cháy chữa cháy chung
-                                        cư
-                                        cao tầng, nhà xưởng sản xuất, trung tâm thương mại, bệnh viện, trường học, nhà
-                                        hàng,
-                                        khách sạn, quán karaoke… Với độ chuyên nghiệp, uy tín, Trần Gia cam kết mang đến
-                                        cho
-                                        khách hàng những bản vẽ thiết kế PCCC tối ưu nhất về chi phí thiết kế, thẩm
-                                        duyệt
-                                    </p>
-                                </div>
-                                <div class="mt-4">
-                                    <a href="" class="button-theme button-theme_primary button-theme_icon">
-                                        Xem tất cả
-                                        <i class="fal fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	counter: bổ sung icon
 
-    thu gọn footer
+ 	XONG  category: bỏ chữ xem chi tiết, căn chỉnh chiều cao của mũi tên và tiêu đề
 
-    dịch vụ: đổi icon như mẫu, căn chỉnh cho đều
+    XONG thu gọn footer
 
-    menu bỏ search
+    XONG  dịch vụ: đổi icon như mẫu, căn chỉnh cho đều
+
+    XONG menu bỏ search
 
     danh mục sản phẩm bỏ lọc:  sidebar danh mục sản phẩm, alumaxboat
 
