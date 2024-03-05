@@ -63,14 +63,16 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 10;
+	z-index: 15;
 	transition: var(--transition-default);
 }
 
 .header-top {
+	height: 42px;
 	background: rgb(34, 34, 34);
 	font-size: .925em;
 	padding: 12px 0;
+	transition: var(--transition-default);
 }
 
 .header-top .header-meta {
@@ -130,7 +132,8 @@
 	position: relative;
 }
 
-.header-bottom .header-navigation > ul > li > a {
+.header-bottom .header-navigation > ul > li > a,
+.header-bottom .header-navigation > ul > li > button {
 	color: var(--bs-white);
 	text-transform: uppercase;
 	font-weight: 500;
@@ -144,6 +147,7 @@
 	gap: 5px;
 	padding: 25px 0;
 	position: relative;
+	background: transparent;
 }
 
 .header-bottom .header-navigation > ul > li > ul > li > a {
@@ -162,8 +166,25 @@
 	width: 100%;
 }
 
-.header-bottom .header-navigation > ul > li > ul > li + li > a {
+.header-bottom .header-navigation > ul > li > ul > li + li {
 	border-top: 1px dotted var(--bs-gray-200);
+}
+
+.header.is-scroll {
+	transform: translateY(-42px);
+	background: var(--bs-black);
+	-webkit-box-shadow: 0 6px 14px -3px rgba(255, 255, 255, 0.1), 0px 10px 32px -2px rgba(255, 255, 255, 0.075);
+	box-shadow: 0 6px 14px -3px rgba(255, 255, 255, 0.1), 0px 10px 32px -2px rgba(255, 255, 255, 0.075);
+}
+
+.header.is-scroll .header-top {
+	transform: translateY(-42px);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.header.is-scroll .header-bottom {
+	background: var(--bs-black);
 }
 
 .section-why {
@@ -218,11 +239,29 @@
 }
 
 .counter-item {
-	padding: 50px 0;
+	padding: 50px 30px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.counter-item .counter-item_icon {
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	box-shadow: 0 5px 62px 0 rgb(2 55 102 / 19%);
+	padding: 10px;
+	flex-shrink: 0;
+}
+
+.counter-item .counter-item_content {
+	line-height: 1.3;
 }
 
 .counter-item .counter-item_number {
 	font-size: 2em;
+	color: var(--primary-color);
 }
 
 .counter-item .counter-item_title {
@@ -539,11 +578,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
-
-.section-service {
-	padding-top: 150px;
-	padding-bottom: 100px;
 }
 
 .section-service .section-heading.heading-line {
