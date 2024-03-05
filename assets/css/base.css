@@ -365,6 +365,18 @@ input[type='number'] {
     color: var(--bs-white);
 }
 
+.button-theme.button-theme_light {
+    background-color: rgba(var(--primary-rgb), 0.08);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.button-theme.button-theme_light:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--bs-white);
+}
+
 .button-theme.button-theme_icon > i {
     font-size: 1.3em;
     margin-left: 4px;

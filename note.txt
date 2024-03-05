@@ -2,7 +2,7 @@ Note Template Mobiak.vn
 
 	XONG đổi font toàn chữ toàn trang
 
-	counter: bổ sung icon
+	XONG counter: bổ sung icon
 
  	XONG  category: bỏ chữ xem chi tiết, căn chỉnh chiều cao của mũi tên và tiêu đề
 
